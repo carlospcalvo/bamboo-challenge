@@ -1,0 +1,103 @@
+.form-container {
+	width: 75vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slide-enter {
+	transform: translateX(100%);
+}
+.slide-enter-active {
+	transform: translateX(0%);
+	transition: transform 500ms ease-in-out;
+}
+.slide-exit {
+	transform: translateX(0%, -200%);
+}
+.slide-exit-active {
+	transform: translate(-200%, -200%);
+	transition: transform 300ms ease-in-out;
+}
+
+/* 
+.slide-enter {
+	-webkit-animation: rotateSlideIn 1s both ease;
+	animation: rotateSlideIn 1s both ease;
+}
+
+.slide-exit {
+	-webkit-animation: rotateSlideOut 1s both ease;
+	animation: rotateSlideOut 1s both ease;
+}
+
+@-webkit-keyframes rotateSlideOut {
+	0% {
+	}
+	25% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px);
+	}
+	75% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px) translateX(-200%);
+	}
+	100% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px) translateX(-200%);
+	}
+}
+@keyframes rotateSlideOut {
+	0% {
+	}
+	25% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px);
+		transform: translateZ(-500px);
+	}
+	75% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px) translateX(-200%);
+		transform: translateZ(-500px) translateX(-200%);
+	}
+	100% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px) translateX(-200%);
+		transform: translateZ(-500px) translateX(-200%);
+	}
+}
+
+@-webkit-keyframes rotateSlideIn {
+	0%,
+	25% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px) translateX(200%);
+	}
+	75% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateZ(0) translateX(0);
+	}
+}
+@keyframes rotateSlideIn {
+	0%,
+	25% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px) translateX(200%);
+		transform: translateZ(-500px) translateX(200%);
+	}
+	75% {
+		opacity: 0.5;
+		-webkit-transform: translateZ(-500px);
+		transform: translateZ(-500px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateZ(0) translateX(0);
+		transform: translateZ(0) translateX(0);
+	}
+}
+ */
